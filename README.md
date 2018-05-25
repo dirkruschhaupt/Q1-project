@@ -26,5 +26,6 @@ The project will be a web page that will use a public API to pull random jokes t
 a user selects to do so. it will also intake user submitted jokes and have a section to have the user sign up to
 receive emailed random jokes (submitted information doesn't have to go anywhere). The site will use html, css and Javascript to manipulate the date. With this API, it looks like you can enter various names to customize the joke. This will be attempted.
 
+Click the link:
 
 ![mock up](https://github.com/dirkruschhaupt/Q1-project/blob/master/My%20project.pdf)
