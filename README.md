@@ -29,4 +29,4 @@ receive emailed random jokes (submitted information doesn't have to go anywhere)
 
 ![index](https://gomockingbird.com/projects/7fqf8if)
 
-![index](My project.pdf/)
+![index](My project.pdf)
