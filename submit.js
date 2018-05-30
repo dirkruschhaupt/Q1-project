@@ -4,6 +4,7 @@ let message = document.getElementById("message");
 let firstNameSubmit = document.getElementById("firstNameSubmit");
 let lastNameSubmit = document.getElementById("lastNameSubmit");
 let emailSubmit = document.getElementById("emailSubmit");
+
 submit.addEventListener('click', function(event) {
   event.preventDefault();
   if ((message.value === "") || (firstNameSubmit.value === "") || (lastNameSubmit.value === "") || (emailSubmit.value === "")) {
