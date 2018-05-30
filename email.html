@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 
   <title>Joke Me Email</title>
-  <script defer src="index.js"></script>
+  <script defer src="email.js"></script>
 
   <link rel="stylesheet" href="index.css">
 </head>
@@ -30,20 +30,23 @@
 
   <p>Want to receive a joke in your email everyday? Then send us you name and email and we will save you the trouble of having to go to our site everyday. NOTE: We may or may not sell your name to spammers.</p>
 
-  <form action="email">
+  <form id="formEmail" action="">
 
-    <input type="text" name="firstname" value="" placeholder="First Name">
+    <input type="text" id="firstNameEmail" name="firstNameEmail" value="" placeholder="First Name">
     <br>
     <br>
-    <input type="text" name="lastname" value="" placeholder="Last Name">
+    <input type="text" id="lastNameEmail" name="lastNameEmail" value="" placeholder="Last Name">
     <br>
     <br>
-    <input type="email" name="email" value="" placeholder="Email">
+    <input type="email" id="emailEmail" name="emailEmail" value="" placeholder="email@email.com">
     <br><br>
 
+
+
     <button class="button">
-      <a href="">Submit</a>
+      <a id="submitEmail" type="submit">Submit</a>
     </button>
+
   </form>
 
 
