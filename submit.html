@@ -1,61 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Joke Me Submits</title>
-  <script defer src="submit.js"></script>
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
-  <header>
-    <h1>Joke Me</h1>
-  </header>
+  <head>
+    <meta charset="utf-8">
+    <title>Joke Me Submits</title>
+    <script defer src="submit.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+      <h1>Joke Me</h1>
+    </header>
 
-  <img src="Emoji34.png" alt="emoji">
+    <img src="Emoji34.png" alt="emoji">
 
-  <button class="button" onclick="window.location.href='index.html'">Home</button>
+    <nav class="nav">
+      <button class="button" onclick="window.location.href='index.html'">Home</button>
 
-  <button class="button" onclick="window.location.href='submit.html'">Submit a Joke</button>
+      <button class="button" onclick="window.location.href='submit.html'">Submit a Joke</button>
 
-  <button class="button" onclick="window.location.href='email.html'">Sign up for Email</button>
+      <button class="button" onclick="window.location.href='email.html'">Sign up for Email</button>
+    </nav>
 
-  <br>
+    <p>Think you’re funny? Want to submit your joke? Well you can! Fill out your name and email address along with what you think might be funny. All submissions will be reviewed by our staff and you will be notified if you make the cut and that we will use it. NOTE: Please keep it clean and simple.</p>
 
-  <p>Think you’re funny? Want to submit your joke? Well you can! Fill out your name and email address along with what you think might be funny. All submissions will be reviewed by our staff and you will be notified if you make the cut and that we will use it. NOTE: Please keep it clean and simple.</p>
+    <form id="messageInfo" action="submit">
+      <textarea name="message" id="message" value="" style="width:500px; height:200px;" placeholder="Enter Joke..."></textarea>
+    </form>
 
+    <form id="formInfo" action="email">
+      <input type="text" id="firstNameSubmit" name="firstNameSubmit" value="" placeholder="First Name">
 
-  <form id="messageInfo" action="submit">
+      <input type="text" id="lastNameSubmit" name="lastNameSubmit" value="" placeholder="Last Name">
 
+      <input type="email" id="emailSubmit" name="emailSubmit" value="" placeholder="email@email.com">
+      <br><br>
 
+      <button class="button" id="submit" type="submit">Submit</button>
+    </form>
 
-    <textarea name="message" id="message" value="" style="width:500px; height:200px;" placeholder="Enter Joke..."></textarea>
-
-  </form>
-
-
-
-
-
-  <form id="formInfo" action="email">
-
-    <input type="text" id="firstNameSubmit" name="firstNameSubmit" value="" placeholder="First Name">
-
-    <input type="text" id="lastNameSubmit" name="lastNameSubmit" value="" placeholder="Last Name">
-
-    <input type="email" id="emailSubmit" name="emailSubmit" value="" placeholder="email@email.com">
-    <br><br>
-
-    <button class="button" id="submit" type="submit">Submit</button>
-
-  </form>
-
-  <footer>
-    <div class="footer-copyright">
-          <div class="foot">
-            © 2018 Joke Me
-          </div>
-        </div>
-      </footer>
-
-</body>
+    <footer class="footer-copyright">
+      <div class="foot">© 2018 Joke Me</div>
+    </footer>
+  </body>
 </html>

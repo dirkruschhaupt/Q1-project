@@ -1,55 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <title>Joke Me Email</title>
+    <script defer src="email.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+      <h1>Joke Me</h1>
+    </header>
 
-  <title>Joke Me Email</title>
-  <script defer src="email.js"></script>
+    <img src="Emoji8.png" alt="emoji">
 
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
-  <header>
-    <h1>Joke Me</h1>
-  </header>
+    <nav class="nav">
+      <button class="button" onclick="window.location.href='index.html'">Home</button>
 
-  <img src="Emoji8.png" alt="emoji">
+      <button class="button" onclick="window.location.href='submit.html'">Submit a Joke</button>
 
+      <button class="button" onclick="window.location.href='email.html'">Sign up for Email</button>
+    </nav>
 
-  <button class="button" onclick="window.location.href='index.html'">Home</button>
+    <p>Want to receive a joke in your email everyday? Then send us you name and email and we will save you the trouble of having to go to our site everyday. NOTE: We may or may not sell your name to spammers.</p>
 
-  <button class="button" onclick="window.location.href='submit.html'">Submit a Joke</button>
+    <form id="formEmail" action="">
+      <input type="text" id="firstNameEmail" name="firstNameEmail" value="" placeholder="First Name">
+      <br><br>
+      <input type="text" id="lastNameEmail" name="lastNameEmail" value="" placeholder="Last Name">
+      <br><br>
+      <input type="email" id="emailEmail" name="emailEmail" value="" placeholder="email@email.com">
+      <br><br>
 
-  <button class="button" onclick="window.location.href='email.html'">Sign up for Email</button>
+      <button class="button" id="submitEmail" type="submit">Submit</button>
+    </form>
 
-  <p>Want to receive a joke in your email everyday? Then send us you name and email and we will save you the trouble of having to go to our site everyday. NOTE: We may or may not sell your name to spammers.</p>
-
-  <form id="formEmail" action="">
-
-    <input type="text" id="firstNameEmail" name="firstNameEmail" value="" placeholder="First Name">
-    <br>
-    <br>
-    <input type="text" id="lastNameEmail" name="lastNameEmail" value="" placeholder="Last Name">
-    <br>
-    <br>
-    <input type="email" id="emailEmail" name="emailEmail" value="" placeholder="email@email.com">
-    <br><br>
-
-
-
-    <button class="button" id="submitEmail" type="submit">Submit</button>
-
-  </form>
-
-
-  <footer>
-    <div class="footer-copyright">
-          <div class="foot">
-            © 2018 Joke Me
-          </div>
-        </div>
-      </footer>
-
-
-</body>
+    <footer class="footer-copyright">
+      <div class="foot">© 2018 Joke Me</div>
+    </footer>
+  </body>
 </html>
