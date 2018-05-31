@@ -13,29 +13,23 @@
 
   <img src="Emoji2.png" alt="emoji">
 
-  <button class="button">
-    <a href="index.html">Home</a>
-  </button>
-  <button class="button">
-    <a href="submit.html">Submit a Joke</a>
-  </button>
-  <button class="button">
-    <a href="email.html">Sign up for Email</a>
-  </button>
+  <button class="button" onclick="window.location.href='index.html'">Home</button>
+
+  <button class="button" onclick="window.location.href='submit.html'">Submit a Joke</button>
+
+  <button class="button" onclick="window.location.href='email.html'">Sign up for Email</button>
 
  <br><br>
  <h2>Random Joke</h2>
 <form>
-  <button class="button">
-    <a id="randomSubmit" type="submit">Tell me a Joke</a>
-  </button>
+  <button class="button" id="randomSubmit" type="submit">Tell me a Joke</button>
 
   <section id="randomJoke">
-        <img id="funny" name="funny">
+        <h5 id="funny" name="funny"></h5>
     </section>
 
 </form>
-<hr> ^ remove me ^
+
 <h2>Customize your Joke</h2>
 
 
@@ -48,12 +42,10 @@
   <input type="text" id="lastNameJoke" name="lastNameJoke" value="" placeholder="Last Name">
   <br><br>
 
-  <button class="button">
-    <a id="customSubmit" type="submit">Tell me a Custom Joke</a>
-  </button>
+  <button class="button" id="customSubmit" type="submit">Tell me a Custom Joke</button>
 
   <section id="customJoke">
-          <img id="custom" name="custom">
+          <h5 id="custom1" name="custom1"></h5>
       </section>
 
 </form>

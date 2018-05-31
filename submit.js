@@ -8,7 +8,7 @@ let emailSubmit = document.getElementById("emailSubmit");
 submit.addEventListener('click', function(event) {
   event.preventDefault();
   if ((message.value === "") || (firstNameSubmit.value === "") || (lastNameSubmit.value === "") || (emailSubmit.value === "")) {
-      alert("Not enough information entered!");
+      alert("You forgot something!");
   } else {
     alert(`Thank you ${firstNameSubmit.value} for submitting your joke. We will contact you in 3-5 days if use decide to use your funny.`);
   }

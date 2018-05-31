@@ -7,7 +7,7 @@ let emailEmail = document.getElementById("emailEmail");
 submitEmail.addEventListener('click', function(event) {
   event.preventDefault();
   if ((firstNameEmail.value === "") || (lastNameEmail.value === "") || (emailEmail.value === "")) {
-    alert("Not enough information entered!");
+    alert("How do you expect me to do my job if you dont finish yours?");
   } else {
     alert(`Thank you ${firstNameEmail.value} for signing up for our daily email joke.`);
   }
